@@ -1,0 +1,31 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.googlewrite{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20vmax;
+    font-size: 13vmax;
+    font-family: sans-serif;
+}
+.G{
+    color: rgb(66, 66, 255);
+}
+.G2{
+    color: rgb(66,66,255);
+}
+.O{
+    color: orangered;
+}
+.O2{
+    color: gold;
+}
+.L{
+    color: rgb(40, 237, 40);
+}
+.E{
+    color: orangered;
+}

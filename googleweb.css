@@ -1,0 +1,114 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+.headbox{
+    height: 4vmax;
+    width: 100%;
+    background-color: white;
+    padding: 1vmax;
+    display: flex;
+    justify-content: space-around;
+    box-shadow: 1vmax rgb(192, 191, 191);
+}
+.div1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.googleicon{
+    background-image: url("googleicon1.PNG");
+    height: 2vmax;
+    width: 8vmax;
+    background-repeat: no-repeat;
+    background-size: contain;
+    
+}
+.googleforsmall{
+    display: flex;
+}
+.forsmall{
+    font-size:2vmax;
+    color:black;
+}
+.essential{
+    font-size: 1.3vmax;
+    color:black;
+    padding:3vmax;
+    
+}
+.essential:hover{
+    color:brown;
+    cursor: pointer;
+}
+.goindepth{
+    font-size: 1.3vmax;
+    color:black;
+    justify-content: space-around;
+    
+}
+.goindepth:hover{
+    color:brown;
+    cursor: pointer;
+}
+.explorelessons:hover{
+    color: brown;
+    cursor: pointer;
+}
+.explorelessons{
+    font-size: 1.3vmax;
+    color:black ;
+}
+.gettheessentialsbox{
+    font-size: 1.3vmax;
+    color: white;
+    background-color: blue;
+    height: 3vmax;
+    width: 14vmax;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.gettheessentialsbox:hover{
+    background-color: rgb(65, 65, 252);
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+ul{
+    list-style: none;
+    background-color: whitesmoke;
+}
+ul li{
+    display: inline-block;
+    position: relative;
+}
+ul li a{
+    display: block;
+    padding: 1vmax;
+    color: black;
+    text-decoration: none;
+    text-align: center;
+    font-size: 1.3vmax;
+}
+li ul.dropdown li{
+    display: block;
+}
+li ul.dropdown{
+    width: 15vmax;
+    background-color: whitesmoke;
+    position: absolute;
+    z-index: 999;
+    display: none;
+}
+ul li a:hover{
+    background-color: whitesmoke;
+    color:brown;
+    cursor: pointer;
+}
+ li:hover ul.dropdown{
+    display:block;
+}
+
+
