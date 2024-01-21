@@ -3,6 +3,9 @@
     margin:0;
     box-sizing: border-box;
 }
+header{
+    box-shadow: 0.1vmax 0.5vmax whitesmoke;
+}
 .headbox{
     height: 4vmax;
     width: 100%;
@@ -10,7 +13,6 @@
     padding: 1vmax;
     display: flex;
     justify-content: space-around;
-    box-shadow: 1vmax rgb(192, 191, 191);
 }
 .div1{
     display: flex;
@@ -60,6 +62,11 @@
     font-size: 1.3vmax;
     color:black ;
 }
+.gettheessentialsbg{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 .gettheessentialsbox{
     font-size: 1.3vmax;
     color: white;
@@ -78,7 +85,7 @@
 
 ul{
     list-style: none;
-    background-color: whitesmoke;
+    background-color: white;
 }
 ul li{
     display: inline-block;
@@ -110,5 +117,103 @@ ul li a:hover{
  li:hover ul.dropdown{
     display:block;
 }
+nav{
+    display: flex;
+    
+    background: white;
+    padding:0.5vmax 2vmax;
+}
+
+nav a{
+    color:black;
+}
+nav a:hover{
+    color:green;
+}
+.logo{
+    flex:1;
+}
+.logo a{
+    flex:center;
+    align-items: center;
+    font-size: 1.3vmax;
+}
+.logo a:hover{
+    color:brown;
+}
+.logo img{
+    width: 8vmax;
+    height: 2vmax;
+}
+.menu{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    
+}
+.menudesign{
+    justify-content: space-evenly;
+}
+
+.toggle{
+    display: none;
+}
+.menubar i{
+    display: none;
+}
+@media screen and (max-width:705px) {
+    nav{
+        display: block;
+        position: relative;
+    }
+    .menu{
+        display: none;
+    }
+    .menubar i{
+    display:inline;
+    }
+    .navsmall{
+        display: flex;
+    }
+    .logo{
+        display: flex;
+        
+        align-items: center;
+    }
+}
+.logo{
+    display: flex;
+    
+    align-items: center;
+}
+.forsmall{
+    font-size: 1.7vmax;
+}
+.dropdowns li a{
+display: none;
+}
+.dropdowns a{
+display: inline;
+    
+}
+.dropdowns li a:hover{
+    display: inline;
+}
+ul a {
+    display: block;
+}
+.dropdowns{
+    flex-direction: column;
+
+}
+
+
+
+
+
+
+
+
+
 
 
