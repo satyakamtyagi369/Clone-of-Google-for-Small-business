@@ -44,6 +44,16 @@ header{
     color:brown;
     cursor: pointer;
 }
+.essentials{
+    font-size: 1.3vmax;
+    color:black;
+    padding:1vmax;
+    margin-left: 3vmax;
+}
+.essentials:hover{
+    color:brown;
+    cursor: pointer;
+}
 .goindepth{
     font-size: 1.3vmax;
     color:black;
@@ -51,6 +61,17 @@ header{
     
 }
 .goindepth:hover{
+    color:brown;
+    cursor: pointer;
+}
+.goindepths{
+    font-size: 1.3vmax;
+    color:black;
+    padding:1vmax;
+    margin-bottom: 1vmax;
+    display: block;
+}
+.goindepths:hover{
     color:brown;
     cursor: pointer;
 }
@@ -104,18 +125,20 @@ li ul.dropdown li{
 }
 li ul.dropdown{
     width: 15vmax;
-    background-color: whitesmoke;
+    background-color: white;
     position: absolute;
     z-index: 999;
     display: none;
 }
 ul li a:hover{
-    background-color: whitesmoke;
+    background-color: white;
     color:brown;
     cursor: pointer;
 }
  li:hover ul.dropdown{
     display:block;
+    border: 0.1vmax solid grey;
+    border-radius: 0.5vmax;
 }
 nav{
     display: flex;
@@ -161,16 +184,19 @@ nav a:hover{
 .menubar i{
     display: none;
 }
+
 @media screen and (max-width:705px) {
     nav{
         display: block;
         position: relative;
     }
+    
     .menu{
         display: none;
     }
     .menubar i{
     display:inline;
+    cursor: pointer;
     }
     .navsmall{
         display: flex;
@@ -180,7 +206,15 @@ nav a:hover{
         
         align-items: center;
     }
+    .menubar i:hover{
+        color:green;
+    }
+    
 }
+
+
+    
+
 .logo{
     display: flex;
     
@@ -189,31 +223,60 @@ nav a:hover{
 .forsmall{
     font-size: 1.7vmax;
 }
-.dropdowns li a{
-display: none;
-}
-.dropdowns a{
-display: inline;
+.logos{
+    display: flex;
     
+    align-items: center;
 }
-.dropdowns li a:hover{
-    display: inline;
+.forsmalls{
+    font-size: 1.7vmax;
 }
-ul a {
+.goindepths  li{
     display: block;
+    margin-left: 4vmax;
 }
-.dropdowns{
-    flex-direction: column;
-
+.learnbasics{
+    font-size: 1.3vmax;
+    font-family: sans-serif;
+    padding:2vmax;
+    margin-top: 10vmax;
+}
+.getessentbox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.gettheessentialsboxs{
+    font-size: 1.3vmax;
+    color: white;
+    background-color: blue;
+    height: 3vmax;
+    width: 14vmax;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 3vmax;
+}
+.gettheessentialsboxs:hover{
+    background-color: rgb(65, 65, 252);
+    cursor: pointer;
+    transform: scale(1.1);
 }
 
-
-
-
-
-
-
-
-
-
+.explorelessonss:hover{
+    color: brown;
+    cursor: pointer;
+}
+.explorelessonss{
+    font-size: 1.3vmax;
+    color:black ;
+    margin-left: 4vmax;
+}
+.navbox{
+    width: 25vmax;
+    height: 100%;
+    padding: 1vmax;
+    border:0.1vmax solid black;
+    display:none;
+}
 
