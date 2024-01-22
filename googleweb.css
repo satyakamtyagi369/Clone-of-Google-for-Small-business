@@ -194,6 +194,9 @@ nav a:hover{
     .menu{
         display: none;
     }
+    .toggle{
+        display: block;
+    }
     .menubar i{
     display:inline;
     cursor: pointer;
@@ -213,11 +216,15 @@ nav a:hover{
 }
 
 
+.navsmalls{
+    display: flex;
+    align-items: center;
+}
     
 
 .logo{
     display: flex;
-    
+    width:21.8vmax;
     align-items: center;
 }
 .forsmall{
@@ -225,8 +232,12 @@ nav a:hover{
 }
 .logos{
     display: flex;
-    
+}
+.logos img{
+    display: flex;
     align-items: center;
+    width: 8vmax;
+    height: 2vmax;
 }
 .forsmalls{
     font-size: 1.7vmax;
@@ -277,6 +288,16 @@ nav a:hover{
     height: 100%;
     padding: 1vmax;
     border:0.1vmax solid black;
-    display:none;
+    margin-left:-25vmax;
+}
+.menubar i:hover{
+    transition:all 0.3s linear;
+    .navbox{
+        margin-right: 25vmax;
+        width: 25vmax;
+        height: 100%;
+        padding: 1vmax;
+        border:0.1vmax solid black;
+    }
 }
 
