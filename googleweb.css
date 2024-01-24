@@ -142,7 +142,6 @@ ul li a:hover{
 }
 nav{
     display: flex;
-    
     background: white;
     padding:0.5vmax 2vmax;
 }
@@ -288,7 +287,7 @@ nav a:hover{
     height: 100%;
     padding: 1vmax;
     border:0.1vmax solid black;
-    margin-left:-25vmax;
+    display: none;    /* navbox menu here*/
 }
 .menubar i:hover{
     transition:all 0.3s linear;
@@ -299,5 +298,21 @@ nav a:hover{
         padding: 1vmax;
         border:0.1vmax solid black;
     }
+}
+.learningecom{
+    font-size: 1vmax;
+    font-family: sans-serif;
+    margin-top:2vmax ;
+    margin-left: 10vmax;
+}
+.learn{
+    color:blue;
+}
+.learning{
+    display: flex;
+}
+.learn:hover{
+    cursor: pointer;
+    color:black;
 }
 
