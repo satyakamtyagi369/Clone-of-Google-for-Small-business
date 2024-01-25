@@ -323,4 +323,67 @@ nav a:hover{
     cursor: pointer;
     color:black;
 }
+.hero{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 12vmax;
+    margin-left:20%;
+    position: relative;
+}
+#sellhead{
+    font-size: 4.5vmax;
+    font-family: sans-serif;
+    position: absolute;
+    background: linear-gradient(45deg,violet,indigo,blue,green,yellow,orange,red);
+    -webkit-background-clip: text;
+    color:transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.getbox{
+    height: 2.8vmax;
+    font-size: 1.3vmax;
+    font-family: sans-serif;
+    position: absolute;
+    width: 20vmax;
+    background-color: white;
+    border: 0.1vmax solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding:1vmax;
+    border-radius: 1.5vmax;
+    cursor: pointer;
+}
+.gettingbox{
+    margin-right: 58vw;
+    margin-top: 20vw;
+    position:absolute;
+}
+.timecomplete{
+    position: absolute;
+    margin-top: 22vw;
+    margin-left: 35vw;
+}
+.sellborder{
+    margin-top: 20vmax;
+    width: 60%;
+    margin-left: 20%;
+
+}
+.fontshero{
+    display: flex;
+    flex-direction: column;
+    margin-left: 2vmax;
+    font-size: 2.2vmax;
+}
+#ipad{
+    padding:0.2vmax;
+}
+
+
+
 
