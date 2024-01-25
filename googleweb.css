@@ -193,9 +193,7 @@ nav a:hover{
     .menu{
         display: none;
     }
-    .toggle{
-        display: block;
-    }
+    
     .menubar i{
     display:inline;
     cursor: pointer;
@@ -211,7 +209,17 @@ nav a:hover{
     .menubar i:hover{
         color:green;
     }
-    
+    .navbox{
+        display: block;
+        z-index: 999;
+    }
+    .header{
+        position: relative;
+    }
+    .navbox.active{
+        display: block;
+        z-index: 999;
+    }
 }
 
 
