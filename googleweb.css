@@ -383,6 +383,18 @@ nav a:hover{
 #ipad{
     padding:0.2vmax;
 }
+.ecommercepara{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:60%;
+    margin-left: 20%;
+}
+.ecommercepara1{
+    font-size: 1.6vmax;
+    font-family: sans-serif;
+    
+}
 
 
 
