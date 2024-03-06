@@ -2,9 +2,14 @@
     padding:0;
     margin:0;
     box-sizing: border-box;
+    position:relative;
 }
 header{
     box-shadow: 0.1vmax 0.5vmax whitesmoke;
+    position:fixed;
+    z-index: 999;
+    margin-bottom: 5rem;
+    width:100%;
 }
 .headbox{
     height: 4vmax;
@@ -97,6 +102,7 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
+    border-radius: 0.5vmax;
 }
 .gettheessentialsbox:hover{
     background-color: rgb(65, 65, 252);
@@ -106,7 +112,7 @@ header{
 
 ul{
     list-style: none;
-    background-color: white;
+    background-color: whitesmoke;
 }
 ul li{
     display: inline-block;
@@ -212,6 +218,7 @@ nav a:hover{
     .navbox{
         display: block;
         z-index: 999;
+        background-color: whitesmoke;
     }
     .header{
         position: relative;
@@ -310,18 +317,23 @@ nav a:hover{
 .learningecom{
     font-size: 1vmax;
     font-family: sans-serif;
-    margin-top:2vmax ;
+ 
     margin-left: 10vmax;
 }
 .learn{
     color:blue;
+    margin-top:10vmax;
 }
 .learning{
     display: flex;
+   
+}
+.ecom{
+    margin-top:10vmax;
 }
 .learn:hover{
     cursor: pointer;
-    color:black;
+    color:rgb(6, 104, 142);
 }
 .hero{
     width: 60%;
@@ -367,6 +379,7 @@ nav a:hover{
     position: absolute;
     margin-top: 22vw;
     margin-left: 35vw;
+    font-size: 1.5vmax;
 }
 .sellborder{
     margin-top: 20vmax;
@@ -384,16 +397,27 @@ nav a:hover{
     padding:0.2vmax;
 }
 .ecommercepara{
-    display: flex;
+    
     justify-content: center;
     align-items: center;
     width:60%;
     margin-left: 20%;
+    
 }
 .ecommercepara1{
     font-size: 1.6vmax;
     font-family: sans-serif;
-    
+    padding-bottom: 4vmax;
+
+}
+.ecommercepara1a{
+    font-size: 1.3vmax;
+    font-family: sans-serif;
+    padding-bottom: 2vmax;
+}
+.para1b{
+    font-size: 1.3vmax;
+    font-family: sans-serif;
 }
 
 
